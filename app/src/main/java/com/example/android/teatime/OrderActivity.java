@@ -113,6 +113,7 @@ public class OrderActivity extends AppCompatActivity {
                         break;
 
                 }
+                displayCost(calculatePrice());
             }
 
             // Because AdapterView is an abstract class, onNothingSelected must be defined
